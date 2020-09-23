@@ -84,7 +84,7 @@ tbody tr:hover th, tbody tr:hover td{
   background-color: rgba(126, 8, 32, 0.25);
 }
 
-th:focus, td:focus{
+tbody th:focus{
   border: 3px dashed #417243;
 }
 
