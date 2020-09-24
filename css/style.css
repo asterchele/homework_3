@@ -57,7 +57,7 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
@@ -93,8 +93,7 @@ tr:nth-child(odd){
 }
 
 tr:hover{
-  background: rgb(126, 8, 32);
-  opacity: 0.25;
+  background-color: rgba(126, 8, 32, .25);
 }
 
 thead tr:first-child th:first-child {
