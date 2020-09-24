@@ -57,7 +57,7 @@ table{
 }
 
 .colhead{
-  background: #7e0830;
+  background-color: #7e0830;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
@@ -80,17 +80,6 @@ tr{
   border-top: 2px solid #000000;
 }
 
-/* tbody tr:hover th, tbody tr:hover td{
-  background-color: rgba(126, 8, 32, 0.25);
-} */
-
-tr:hover{
-  background-color: rgba(126, 8, 32, 0.25);
-}
-/* tbody th:focus{
-  border: 3px dashed #417243;
-} */
-
 *:focus{
   border: 3px dashed #417243
 }
@@ -103,6 +92,10 @@ tbody tr:nth-child(odd){
   background: transparent;
 }
 
+tr:hover{
+  background-color: rgb(126, 8, 32);
+  opacity: 0.25;
+}
 
 thead tr:first-child th:first-child {
   border-top-left-radius: 10px;
